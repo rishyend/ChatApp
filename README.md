@@ -4,8 +4,7 @@ Modified from Lama's Chat App using Firebase and React which includes altered/ad
 
 # Editing User Info privilege
 
-![image](https://github.com/user-attachments/assets/3fa6bb2f-c34f-449f-95e5-670c3d4d2b4e)
-
+![image](https://github.com/user-attachments/assets/cab77657-94a8-4089-86d6-1230b1235a8f)
 
 
 # Updated User's Info is visible in Receiver's Chat Window in real time.

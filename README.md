@@ -4,16 +4,20 @@ Modified from Lama's Chat App using Firebase and React which includes altered/ad
 
 # Editing User Info privilege
 
-![image](https://github.com/user-attachments/assets/0d7a06b7-ac3c-4439-80b5-8a4ade3835cb)
+![Screenshot 2024-10-22 160436](https://github.com/user-attachments/assets/2aae7e90-6676-47f8-9401-97992d907f96)
+
 
 # Updated User's Info is visible in Receiver's Chat Window in real time.
 
-![image](https://github.com/user-attachments/assets/3d1b2789-c0c5-478f-9641-dfe0a4a9d08e)
+![Screenshot 2024-10-22 160542](https://github.com/user-attachments/assets/7e0f4958-0874-4e29-a7be-1d2d30633ef0)
+
 
 # After clicking on Info Icon (ℹ️), A ABOUT description is popped up for the user for currentUser.
 
-![image](https://github.com/user-attachments/assets/1ce94141-3323-48a1-bb06-5c4b60393969)
+![Screenshot 2024-10-22 160628](https://github.com/user-attachments/assets/58ddc558-141f-401c-866b-05408107d6b2)
+
 
 # But removed Details window completely and just kept Logout Button out of that page as :
 
-![image](https://github.com/user-attachments/assets/6dfe7cd0-a12d-46a8-8377-6ad0d6a71bcc)
+![Screenshot 2024-10-22 160922](https://github.com/user-attachments/assets/f4e52b7a-50de-44a4-aa14-522c257fff80)
+

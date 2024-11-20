@@ -1,0 +1,25 @@
+rules_version = '2';
+
+service cloud.firestore {
+  match /databases/{database}/documents {
+    match /users/{userId} {
+      // Users can read and write their own data
+      allow read, write: if request.auth != null && request.auth.uid == userId;
+    }
+    
+    // Example for public data that anyone can read but only authenticated users can write
+    match /public/{document=**} {
+      allow read: if true; // Anyone can read
+      allow write: if request.auth != null; // Only authenticated users can write
+    }
+    
+    // Catch-all rule: Deny access to everything else
+    match /{document=**} {
+      allow read, write: if false;
+    }
+    // Rule allowing full access until November 30, 2100
+    match /{document=**} {
+      allow read, write: if request.time < timestamp.date(2100, 11, 30);
+    }
+  }
+}

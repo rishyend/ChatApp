@@ -21,4 +21,4 @@ Modified from Lama's Chat App using Firebase and React which includes altered/ad
 
 ![Screenshot 2024-10-22 160922](https://github.com/user-attachments/assets/f4e52b7a-50de-44a4-aa14-522c257fff80)
 
-AND PEOPLE WHOEVER ARE NEW TO FIREBASE SHOULD NOT FORGET TO UPDATE RULES FOR THE DATABASE YOU'RE CREATING IN FIREBASE SO THAT YOU WON'T REMAIN CLUELESS WHEN CHAT PAGE IS NOT OPENING AFTER ENTER CREDS & CLICKING LOGIN (For which I'm attaching my rules file in Rules.txt) and also package-lock.json as on (20-11-2024) & also .env file should be in your folder with VITE_API_KEY= YOUR_KEY_IN_PROJECT_SETTINGS
+AND PEOPLE WHOEVER ARE NEW TO FIREBASE SHOULD NOT FORGET TO UPDATE RULES FOR THE DATABASE YOU'RE CREATING IN FIREBASE SO THAT YOU WON'T REMAIN CLUELESS WHEN CHAT PAGE IS NOT OPENING AFTER ENTER CREDS & CLICKING LOGIN (For which I'm attaching my rules file in Rules.txt) and also package-lock.json as on (20-11-2024) & also .env file should be in your folder with VITE_API_KEY= YOUR_KEY_IN_FIREBASE_DB_SETTINGS
